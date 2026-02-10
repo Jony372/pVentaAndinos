@@ -5,13 +5,13 @@
 
 ---
 
-## 📖 Descripción
+## Descripción
 
 **pVentaAndinos** es una aplicación de escritorio robusta desarrollada en **Java**, creada para optimizar la operación diaria de una heladería o nevería. 
 
 A diferencia de los puntos de venta genéricos, este sistema incluye características específicas para el nicho, como la **gestión gráfica de niveles en garrafas** (para nieves y aguas), permitiendo un control de inventario más intuitivo y realista basado en volumen y no solo en unidades.
 
-## 🚀 Características Principales
+## Características Principales
 
 ### 🛒 Módulo de Ventas Ágil
 - **Interfaz Intuitiva:** Diseño limpio para registrar pedidos rápidamente.
@@ -57,37 +57,11 @@ A diferencia de los puntos de venta genéricos, este sistema incluye caracterís
 - **Arquitectura:** MVC (Modelo-Vista-Controlador)
 - **Herramientas:** NetBeans IDE / IntelliJ IDEA
 
-## 📦 Instalación y Despliegue
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/Jony372/pVentaAndinos.git](https://github.com/Jony372/pVentaAndinos.git)
-    ```
-
-2.  **Base de Datos:**
-    -   Localiza el archivo `.sql` en la carpeta `database` del proyecto.
-    -   Impórtalo en tu gestor de base de datos (phpMyAdmin, Workbench, etc.).
-    -   *Nota: Asegúrate de que el nombre de la base de datos coincida con la configuración en la clase de conexión.*
-
-3.  **Configuración:**
-    -   Abre el proyecto en tu IDE de preferencia.
-    -   Verifica las credenciales de la base de datos en el archivo de conexión (usualmente `Conexion.java` o `DB.properties`).
-
-4.  **Ejecutar:**
-    -   Compila y ejecuta el archivo principal `Main.java` o `Login.java`.
-
 ## 📄 Diagrama de Flujo del Proceso
 
 El sistema sigue un flujo lógico para asegurar la integridad de cada venta:
 
 ![Diagrama de Flujo](screenshots/diagrama_flujo.jpg)
 
-## 📞 Contacto y Contribución
-
 ¡Las sugerencias y pull requests son bienvenidas!
-
-- **Desarrollador:** [Jonathan Tavares](https://github.com/Jony372)
-- **Proyecto:** [Repositorio en GitHub](https://github.com/Jony372/pVentaAndinos)
-
 ---
-*Desarrollado con ❤️ y mucho 🍦.*
